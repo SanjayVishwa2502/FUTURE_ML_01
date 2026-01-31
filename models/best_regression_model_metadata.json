@@ -1,0 +1,30 @@
+{
+  "project_root": "C:\\Projects\\FUTURE_ML_01",
+  "best_model_name": "RandomForest",
+  "best_metrics": {
+    "mae": 668.039958984751,
+    "rmse": 1101.9195253314563,
+    "mape_percent": 45.47438015119448,
+    "r2": 0.8112698749490287
+  },
+  "use_log_target": true,
+  "clip_negative": true,
+  "tscv_splits": 3,
+  "n_iter": 20,
+  "random_state": 42,
+  "train_date_min": "2014-02-02 00:00:00",
+  "train_date_max": "2017-03-19 00:00:00",
+  "test_date_min": "2017-03-20 00:00:00",
+  "test_date_max": "2017-12-30 00:00:00",
+  "tuning": {
+    "best_name": "HistGradientBoosting_tuned",
+    "best_score_neg_mae": -469.4126402048202,
+    "best_params": {
+      "regressor__model__min_samples_leaf": 10,
+      "regressor__model__max_leaf_nodes": 127,
+      "regressor__model__max_depth": 6,
+      "regressor__model__learning_rate": 0.1,
+      "regressor__model__l2_regularization": 0.1
+    }
+  }
+}
