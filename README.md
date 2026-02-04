@@ -1,4 +1,4 @@
-# 📊 Sales Forecasting with Machine Learning
+# Sales Forecasting with Machine Learning
 
 > **Internship Project** | Future Interns ML Task  
 > Predicting daily retail sales with 81% accuracy using RandomForest
@@ -25,7 +25,7 @@ This project builds an end-to-end **sales forecasting system** that predicts dai
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -54,15 +54,15 @@ python run_all.py
 ```
 
 This single command executes:
-- ✅ Step 7: Daily time series data preparation
-- ✅ Step 8: Regression model training (RandomForest)
-- ✅ Step 9: ARIMA time series model
-- ✅ Step 10: Comprehensive model evaluation
-- ✅ Step 11: Visualizations & business insights
+-  Step 7: Daily time series data preparation
+-  Step 8: Regression model training (RandomForest)
+-  Step 9: ARIMA time series model
+-  Step 10: Comprehensive model evaluation
+-  Step 11: Visualizations & business insights
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FUTURE_ML_01/
@@ -113,7 +113,7 @@ FUTURE_ML_01/
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 ### Sales Trends
 - **Year-over-Year Growth**: 18-24% annually
@@ -131,7 +131,7 @@ FUTURE_ML_01/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category | Tools |
 |----------|-------|
@@ -143,7 +143,7 @@ FUTURE_ML_01/
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### Forecast Chart
 ![Forecast](visualizations/forecast_chart.png)
@@ -156,7 +156,7 @@ FUTURE_ML_01/
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 Based on the model's predictions:
 
@@ -178,7 +178,7 @@ Based on the model's predictions:
 
 ---
 
-## 🔬 Model Comparison
+## Model Comparison
 
 | Model | R² Score | MAE | RMSE |
 |-------|----------|-----|------|
@@ -192,7 +192,7 @@ Based on the model's predictions:
 
 ---
 
-## 📋 Methodology
+## Methodology
 
 ### Data Pipeline
 1. **Data Collection**: Superstore sales dataset (9,994 orders)
@@ -209,7 +209,7 @@ Based on the model's predictions:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Model doesn't capture external events (promotions, competitors)
 - Weather and economic factors not included
@@ -218,7 +218,7 @@ Based on the model's predictions:
 
 ---
 
-## 🔄 Reproducing Results
+## Reproducing Results
 
 ```bash
 # Full pipeline (recommended)
@@ -234,7 +234,7 @@ python scripts/create_visualizations.py     # Step 11
 
 ---
 
-## 📚 Files Description
+## Files Description
 
 ### Core Scripts
 | File | Purpose |
@@ -255,13 +255,13 @@ python scripts/create_visualizations.py     # Step 11
 
 ---
 
-## 👤 Author
+## Author
 
 **Intern Project** - Future Interns ML Program
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes as part of the Future Interns internship program.
 
